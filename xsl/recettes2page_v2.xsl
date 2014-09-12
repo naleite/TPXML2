@@ -18,6 +18,7 @@
 		<head>
 			<title>RECETTES</title>
 		<!--  on pourra ajouter une feuille de style CSS ici -->
+			<link rel="stylesheet" type="text/css" href="../page.css"/>
 		</head>
 		<body>
 		<xsl:apply-templates />
