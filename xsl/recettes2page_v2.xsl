@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  fichier recettes2page.xsl -->
+<!--  fichier recettes2page_v2.xsl des modification pour moi-meme -->
 <xsl:stylesheet version="2.0" 
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 		xmlns="http://www.w3.org/1999/xhtml">
