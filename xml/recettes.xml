@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--  fichier recettes.cml  -->
+<!--  fichier recettes.cml  pour branch test-->
 <!DOCTYPE recettes SYSTEM "../dtd/recettes.dtd">
 <recettes>
 	<rubrique>
