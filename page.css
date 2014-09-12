@@ -1,0 +1,46 @@
+/* 
+	fichier page.css 
+*/
+
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #666666;
+	background-color: #FFFFFF;
+	font-size: 10pt;
+	font-family: sans-serif;
+}
+li { margin-right: 5%; margin-bottom: 0.5em; }
+div.préparation > ul { list-style-image: url('../img/logo.gif') }
+div.ingrédients > ul { list-style-type: square; }
+h2 + p { text-align:center; }
+/* 
+	règles sur les titres (h1, h2, h3) 
+*/
+h1, h2, h3	{
+	text-align:center;
+	background-color: #D0D0C0;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+h1	{ font-size:200%; letter-spacing: 1.4em; page-break-before: always;}
+h2	{ font-size:160%; font-weight: bold; }
+h3	{ font-size:80%; text-transform:uppercase; padding:5px; background-color: #EEEECC;}
+h3:before { content: "*** ";}
+h3:after { content: " ***";}
+/* 
+	règles sur les attributs class 
+*/
+.fiche {
+	margin-top: 2em;
+	padding:1px; border: solid thin ;
+	page-break-after: always;
+}
+.ingrédients {
+	text-align: left; font-weight: normal;
+	margin-left: 10%; 
+}
+.préparation {
+	text-align: justify;
+	margin-left: 10%; 
+}
