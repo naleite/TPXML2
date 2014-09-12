@@ -37,8 +37,10 @@
 	<xsl:template match="recette" >
 	<!--  on pourra ajouter un attribut id sur cet élément div
 		afin de créer ensuite un lien vers chaque recette -->
-	    <div class="fiche" id="1">
+	    <div class="fiche" >
+	    	<a href="#{generate-id()}">
 			<h2><xsl:value-of select="nom"/></h2>
+			</a>
 			<p><xsl:value-of select="temps/text()"/></p>
 		<!--  on pourra considerer les ingrédients comme une liste (ul) -->
 			<ul><div class="ingrédients"><xsl:apply-templates select="ingrédients"/></div></ul>
